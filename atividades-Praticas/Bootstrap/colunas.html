@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colunas</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <style>
+        .altura300{
+            background-color:aquamarine 300px
+        }
+        .col-3{
+            background-color:aqua 
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container ">
+        <h1>Alinhamento vertical</h1>
+        <!-- <div class="row .altura300 aling-item-start"></div>-->
+        <!-- <div class="row .altura300 aling-item-and"></div>-->
+        <div class="row altura300 aling-item-center"></div>
+        <div class="col-3 border aling-item-start">coluna1</div>
+        <div class="col-3 border aling-item-center" >coluna2</div>
+        <div class="col-3 border aling-item-and">coluna3</div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <h1>Alinhamento Horizontal</h1>
+        <div class="row altura300 justfy-content-evenly">
+            <div class="col-3 border">coluna1</div>
+            <div class="col-3 border">coluna2</div>
+            <div class="col-3 border">coluna3</div> 
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <div class="row altura300">
+            <div class="col-3 mx-auto my-auto">Coluna Margem</div>
+        </div>
+    </div>
+
+
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.js">
+</body>
+</html>
